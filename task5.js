@@ -8,5 +8,5 @@ function longestword(str) {
     }
     return longest;
 }
-let inputString = "hello my name is rishabh";
+let inputString = prompt("Enter a sentence");
 console.log("The longest word is: " + longestword(inputString));
