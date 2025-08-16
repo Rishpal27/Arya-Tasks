@@ -1,11 +1,12 @@
-let str=prompt("Enter a string to check if it's a palindrome:");
+let ogstr=prompt("Enter a string to check if it's a palindrome:");
+let str=ogstr.toLowerCase();
 if (str==" "){
     console.log("The string is empty.");
 }
 let count=0;
 let revstr=str.split('').reverse().join('');
-console.log("The original string is: " + str.toLowerCase());
-console.log("The reversed string is: " + revstr.toLowerCase());
+console.log("The original string is: " + str);
+console.log("The reversed string is: " + revstr);
 if (str === revstr) {
     console.log("The string is a palindrome.");
 }
