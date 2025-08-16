@@ -1,4 +1,5 @@
-let birthage=prompt("Enter your age:");
+let birthyear=prompt("Enter your year:");
+let birthage=2025-birthyear;
 if (birthage<18){
     console.log("You are a minor.");
 }
